@@ -1,4 +1,0 @@
-#! /bin/bash
-
-cp csgo/autoexec.cfg "$HOME/.steam/debian-installation/steamapps/common/Counter-Strike Global Offensive/csgo/cfg/autoexec.cfg"
-cp minecraft/options.txt $HOME/.minecraft/options.txt
