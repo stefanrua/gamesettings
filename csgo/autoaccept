@@ -2,9 +2,9 @@
 
 while true
 do
-    xdotool mousemove 950 400
+    xdotool mousemove 950 410
     xdotool click 1
-    xdotool mousemove 952 401
+    xdotool mousemove 952 411
     sleep 5
 done
 
