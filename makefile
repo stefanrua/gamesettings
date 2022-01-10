@@ -1,10 +1,7 @@
 csgo = ${HOME}/.steam/debian-installation/steamapps/common/'Counter-Strike Global Offensive'/csgo
 minecraft = ${HOME}/.minecraft
 
-update:
-	cp ${csgo}/cfg/autoexec.cfg csgo/autoexec.cfg
-	cp ${minecraft}/options.txt minecraft/options.txt
-
 install:
-	cp csgo/autoexec.cfg ${csgo}/cfg/autoexec.cfg
-	cp minecraft/options.txt ${minecraft}/options.txt
+	- ln -s csgo/autoexec.cfg ${csgo}/cfg/autoexec.cfg
+	- ln -s csgo/prac.cfg ${csgo}/cfg/prac.cfg
+	- ln -s minecraft/options.txt ${minecraft}/options.txt
